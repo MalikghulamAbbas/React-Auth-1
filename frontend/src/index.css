@@ -324,3 +324,47 @@
     grid-template-columns: 1fr;
   }
 }
+/* Forgot Password specific styles */
+.auth-note {
+    background-color: #f8f9fa;
+    border-left: 4px solid #007bff;
+    padding: 0.75rem;
+    margin: 1rem 0;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.token-input {
+    font-family: 'Courier New', monospace;
+    letter-spacing: 0.5px;
+}
+
+.password-strength {
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+}
+
+.strength-weak {
+    color: #dc3545;
+}
+
+.strength-medium {
+    color: #fd7e14;
+}
+
+.strength-strong {
+    color: #28a745;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+    .auth-card {
+        padding: 1.5rem;
+        margin: 1rem;
+    }
+    
+    .auth-container {
+        padding: 1rem;
+    }
+}
